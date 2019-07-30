@@ -1,0 +1,107 @@
+//JavaScript has only one type of number. Numbers you can be write with //with decimals or without decimals.
+//example 1
+var withDec = 9.97;
+
+var nonDec = 5;
+
+//Extra large or extra small numbers can be written with scientific //(exponent) notation:
+//example 2
+var Elarge = 999e3;
+var Esmall = 999e-3;
+
+document.write( Elarge + "<br/>" + Esmall );
+
+//example 3
+//after 15 digits it shows you the whole result
+
+var fourteen = 999999999999999;
+var fifteen = 9999999999999999;
+document.write(fourteen + "<br>" + fifteen);
+
+
+
+//example 4
+//floating points are always not fully correct
+var x = 0.7 + 0.1;
+document.write("0.7 + 0.1 = " + x);
+
+
+
+//example 5
+//javascript solve first parentheses
+
+var val = (30 * 10 + 40 * 10) / 10;
+document.write(val); // output is 70
+
+//when we remove parenthesis 
+var val = 30 * 10 + 40 * 10 / 10;
+document.write(val); // output is 340
+
+
+//example 6
+//adding strings 
+var x = "20";
+var y = "20";
+var z = x + y;
+document.write(z); //output is 2020
+
+
+//adding integer and strings 
+var x = 20;
+var y = "20";
+var z = x + y;
+document.write(z); //output is 2020
+
+//example 7
+//adding two integers with string
+var x = 15;
+var y = 25;
+var z = "30";
+var result = x + y + z;
+document.write(result); //result 4030
+
+
+// now integer adding with string with integer
+
+var x = 15;
+var y = 25;
+var z = "30";
+var result = x + z + y;
+document.write(result); //output is 153025
+
+//example 8
+//JS will try to convert strings to numbers when multiplying
+
+var x = "200";
+var y = "20";
+var z = x * y;   
+document.write(z); //output 2000
+
+var x = "200";
+var y = "20";
+var z = x -	 y;   
+document.write(z); //output 180
+
+var x = "200";
+var y = "20";
+var z = x + y;   
+document.write(z); //output 20020
+
+
+
+//example 9
+
+var myNumber = 36;
+document.write(
+"36 = " + "<br>" + 
+" Decimal " + myNumber.toString(10) + "<br>" +
+" Hexadecimal " + myNumber.toString(16) + "<br>" +
+" Octal " + myNumber.toString(8) + "<br>" +
+" Binary " + myNumber.toString(2) );
+
+
+//example 10
+var x = 100;        // x is a number
+var y = new Number(100);  // y is an object
+document.getElementById("demo").innerHTML = (x===y); //true
+
