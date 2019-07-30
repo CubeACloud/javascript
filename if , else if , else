@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS IF , ELSE IF ,ELSE</title>
+    </head>
+    <body>
+        <script>
+            
+            
+            
+            var course = prompt("input 1 is for if condition , input 2 for else if condition , input any number for else condition");
+if (course == 1) {
+    document.write("<h1>if condition</h1>");
+} else if (course == 2) {
+    document.write("<h1>else if condition</h1>");
+} else {
+    document.write("<h1>else condition</h1>");
+}
+
+
+      </script>
+    </body>
+</html>
