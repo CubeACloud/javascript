@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        
+        
+        <script>
+            var color = prompt("type green");
+switch(color) {
+    case "blue": 
+        document.write("This is blue color.");
+        break;
+    case "red":     
+        document.write("This is red color.");
+        break;
+    case "green": 
+        document.write("This is green color.");    
+        break;
+    case "orange":  
+        document.write("This is orange color.");    
+        break;
+        case "yellow":
+        document.write("this is yellow color.")
+        break;
+        
+    default: 
+        document.write("<br/>Color not found.");
+}
+
+// switch statement work cycle
+
+//The switch expression is evaluated once.
+//The value of the expression is compared with the values of each case.
+//If there is a match, the associated block of code is executed
+            
+            
+        </script>
+    </body>
+</html>
