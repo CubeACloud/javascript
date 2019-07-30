@@ -105,3 +105,58 @@ var x = 100;        // x is a number
 var y = new Number(100);  // y is an object
 document.getElementById("demo").innerHTML = (x===y); //true
 
+//example 11 
+
+document.write(Math.round(4.6)); //if round 4.7 or 4.8, 4.9 , it will give you 5 output
+document.write(Math.round(4.6)); // if 4.2 or 4.3 it will give you 4 output
+
+
+//example 12
+//Math.PI returns the ratio of a circle's circumference to its diameter:
+
+document.write(Math.PI);
+
+
+//example 13
+// pow is for give you the power of integer:
+document.write(Math.pow(8,2));
+
+
+//example 14
+
+//returns the square root
+document.write(Math.sqrt(64));
+
+
+//example 15
+
+//returns the absolute (positive) value of 
+
+document.write(Math.abs(-4.4));
+
+//example 16
+
+//rounds a number up to its nearest integer:
+document.write(Math.ceil(4.6));
+
+
+
+
+//example 17
+
+// returns the value of x rounded to its nearest integer:
+
+document.write(Math.floor(4.7));
+
+//example 18
+//returns the min value
+
+document.write(
+Math.min(0, 150, 30, 20, -8, -200));
+
+//example 19 
+
+//returns max value
+
+document.write(
+Math.max(0, 150, 30, 20, -8, -200));
