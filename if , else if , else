@@ -6,7 +6,7 @@
     <body>
         <script>
             
-            
+            //type input 1 in prompt will show you "IF" result ,  type input 2 in prompt will show you "ELSE IF" result , and if the condition doesn't match it will show the "else" result
             
             var course = prompt("input 1 is for if condition , input 2 for else if condition , input any number for else condition");
 if (course == 1) {
