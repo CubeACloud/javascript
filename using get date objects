@@ -1,0 +1,54 @@
+//for time
+var d = new Date();
+document.write(d.getTime());
+
+//for full year
+var d = new Date();
+document.write(d.getFullYear());
+
+
+//The getMonth() method returns the month of a date as a number from 0 to 11.
+//To get the correct month, you must add 1:
+
+var date = new Date();
+document.write(date.getMonth() + 1);
+
+
+//months You can use an array to display //the name of the month:
+var date = new Date();
+var months = ["Jan","Feb","March","April","May","June","July","Aug","Sept","Oct","Nov","Dec"];
+document.write(months[date.getMonth()]);
+
+
+//The getDate() method returns the day of a //date as a number
+var date = new Date();
+document.write(date.getDate());
+
+
+//The getDay() method returns the weekday //as a number
+var date = new Date();
+document.write(date.getDay());
+
+
+//The getHours() method returns the hours //of a date as a number
+var date = new Date();
+document.write(date.getHours());
+
+//The getMinutes() method returns the //minutes of a date as a number
+var date = new Date();
+document.write(date.getMinutes());
+
+//The getSeconds() method returns the seconds of a date as a number
+var date = new Date();
+document.write(date.getSeconds());
+
+//The getMilliseconds() method returns the //milliseconds of a date as a number
+var date = new Date();
+document.write(date.getMilliseconds());
+
+
+
+
+
+
+
