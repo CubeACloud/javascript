@@ -1,0 +1,71 @@
+as using Get Date Methods to get date  you can also Set Date Methods to get your date of your choice
+
+
+
+setDate()	//Set the day as a number (1-31)
+setFullYear()	//Set the year (optionally month and day)
+setHours()	//Set the hour (0-23)
+setMilliseconds()	//Set the milliseconds (0-999)
+setMinutes()	//Set the minutes (0-59)
+setMonth()	//Set the month (0-11)
+setSeconds()	//Set the seconds (0-59)
+setTime()	//Set the time (milliseconds since January 1, 1970)
+
+
+//set year
+
+var date = new Date();
+date.setFullYear(2027);
+document.write(date);
+
+//set year using given data
+
+var date = new Date();
+date.setFullYear(2027, 0 , 27);
+document.write(date);
+
+//set month
+
+var date = new Date();
+date.setMonth(0);	
+document.write(date);
+
+
+//set date
+
+var date = new Date();
+date.setDate(0);
+document.write(date);23
+
+
+//set date using get to plus 30 days on current day
+var date = new Date();
+date.setDate(date.getDate() + 30);
+document.write(date);
+
+
+
+//set hours
+
+var date = new Date();
+date.setHours(10);
+document.write(date);	
+
+//set minutes
+
+var date = new Date();
+date.setMinutes(10);
+document.write(date);
+
+//set seconds
+
+var date = new Date();
+date.setSeconds(30);
+document.write(date);
+
+
+
+
+
+
+_________________________________________********______________________________
