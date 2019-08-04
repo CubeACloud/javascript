@@ -1,0 +1,49 @@
+//JavaScript Operators
+
++	//Addition
+-	//Subtraction
+*	//Multiplication
+**	//Exponentiation (ES2016)
+/	//Division
+%	//Modulus (Division Remainder)
+++	//Increment
+--	//Decrement
+
+//Addition 
+var text = "x = 4, y = 3, calculate z = x + y, and display z:"
+var x = 4;    //assign the value of 4 to x , "=" is assigment operator 
+var y = 3;    // assign the value 3 to y
+var z = x + y;     // assign the value 7 to z (x + y) , "+" Addition operator
+document.write(text + "<br/>" + z); 
+
+
+//Multiplication 
+var text = "x = 4, y = 3, calculate z = x * y, and display z:"
+var x = 4; //assign the value of 4 to x , "=" is assigment operator 
+var y = 3; // assign the value 3 to y
+var z = x * y;  // assign the value 12 to z (x * y) , "*" Multiplication operator
+document.write(text + "<br/>" + z);
+
+
+
+//Subtraction 
+var text = "x = 4, y = 3, calculate z = x - y, and display z:"
+var x = 4; //assign the value of 4 to x , "=" is assigment operator 
+var y = 3; // assign the value 3 to y
+var z = x - y;  // assign the value 1 to z (x - y) , "-" Subtraction operator
+document.write(text + "<br/>" + z);
+
+
+//Division
+var text = "x = 4, y = 3, calculate z = x / y, and display z:"
+var x = 4; //assign the value of 4 to x , "=" is assigment operator 
+var y = 3; // assign the value 3 to y
+var z = x / y;  // assign the value 1.33 to z (x / y) , "/" Division operator
+document.write(text + "<br/>" + z);
+
+//Modulus (Division Remainder)
+var text = "x = 4, y = 3, calculate z = x % y, and display z:"
+var x = 4; //assign the value of 4 to x , "=" is assigment operator 
+var y = 3; // assign the value 3 to y
+var z = x % y;  // assign the value 1 to z (x % y) , "%" Modulus (Division Remainder)operator
+document.write(text + "<br/>" + z);
