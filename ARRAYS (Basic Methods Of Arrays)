@@ -1,0 +1,28 @@
+//calling array elements
+
+var person = ["christen", "grey", 27];  //array as object
+document.write(person[1]);   //output "Doe"
+
+
+
+var person = ["christen", "grey", 27];
+var leng = person.length;
+document.write(leng);
+
+
+
+//access object properties
+var person = {firstN : "christian" ,  lastN: "grey", age : 46};
+document.write(person["firstN"]);
+
+
+
+
+
+
+//
+
+var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "dec",] ;
+var last = months[months.length-2];
+document.write(last);
+
