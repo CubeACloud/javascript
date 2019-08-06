@@ -1,0 +1,33 @@
+//
+
+var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "dec",] ;
+document.write(months.join(" * "));
+
+
+
+//jan
+//feb
+//march
+//april
+//may
+//june
+//july
+//august
+//sept
+//oct
+//nov
+//dec
+
+//eliminate the last month
+
+var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "dec",] ;
+
+months.pop();
+document.write(months);
+
+
+//push() add new value into array
+
+var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "",] ;
+months.push("dec");
+document.write(months);
