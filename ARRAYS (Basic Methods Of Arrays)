@@ -26,3 +26,4 @@ var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "
 var last = months[months.length-2];
 document.write(last);
 
+//if you have any problem you can contact us on cubeacloud@gmail.com
