@@ -69,3 +69,28 @@ var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "
 
 months[11] = "dec";
 document.write(months);
+
+
+// delete method delete the value from the given index number
+
+var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov","dec"] ;
+
+delete months[0];
+document.write(months);
+
+//result ,feb,march,april,may,june,july,august,sept,oct,nov,dec
+
+
+
+//slice() method slice the value elimintate the index value from 3 to 9 and show you the result after 3 to 9
+
+
+var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov","dec"] ;
+
+var neo = months.slice(3 , 9);
+document.write(neo);
+
+//result april,may,june,july,august,sept
+
+
+
