@@ -1,0 +1,11 @@
+//method sorts an array alphabetically:
+
+var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov","dec"] ;
+
+var neo = months.sort()
+document.write(neo);
+
+//result  april,august,dec,feb,jan,july,june,march,may,nov,oct,sept
+
+
+//more examples  will be upload
