@@ -1,0 +1,38 @@
+ event can be something the browser does, or something a user does.
+
+<button onclick="document.getElementById('time').innerHTML=Date()">The time is?</button>
+
+<p id="time"></p>
+
+
+//In the next example, the code changes the content of its own element (using this.innerHTML):
+//put this code in html <body> tag
+
+<button onclick="this.innerHTML=Date()">time??</button>
+
+
+//paste this code in HTML <body> tag
+<button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {  //function
+var neo = new Date();         		//call Date() object
+  document.getElementById("date").innerHTML = neo.getFullYear(); //get year
+}
+</script>
+
+<p id="date"></p> //declare a id where we can show result
+
+
+
+
+//onchange    =  An HTML element has been changed
+//onclick  =  The user clicks an HTML element
+//onmouseover  =  The user moves the mouse over an HTML element
+//onmouseout   =  The user moves the mouse away from an HTML //element
+//onkeydown  =  The user pushes a keyboard key
+//onload	The browser has finished loading the page
+
+
+
+
