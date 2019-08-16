@@ -1,0 +1,58 @@
+BOOLEANS
+
+Very often, in programming, you will need a data type that can only have one of two values, like
+
+YES / NO
+ON / OFF
+TRUE / FALSE
+
+Boolean can be use in function to find out if an expression is true or not , variable also include.
+
+syntax 
+Boolean(47 > 17)        // returns true
+
+OR
+
+ (47 > 17)        // returns true
+
+OR
+
+47 > 17        // returns true
+
+//0 will be false
+var y = 0;
+  document.write(Boolean(y));  // returns false
+
+//negative value will be false
+ var y = -0;
+  document.write(Boolean(y));  // returns false
+
+
+
+//empty is equal to false(undefined)
+  var y = "";
+  document.write(Boolean(y));  // returns false
+
+//undefined is also falls in false
+ var y;
+  document.write(Boolean(y));   // returns false
+
+
+//null var is equal to false
+ var y = null;
+  document.write(Boolean(y));    // returns false
+
+//if we declare it false 
+ var y = false;
+  document.write(Boolean(y));  // returns false
+
+
+//integer is true
+  var y =  4;
+  document.write(Boolean(y));
+
+
+
+
+
+
