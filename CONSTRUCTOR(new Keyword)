@@ -1,0 +1,28 @@
+
+
+
+//A class is a type of function, but instead of using the keyword function to //initiate it,
+
+
+//keyword class to create a class, and always add a constructor method.
+
+class bike {
+constructor(brand) {
+this.bikeName = brand;
+
+}
+}
+
+neo = new bike("power"); //The new keyword constructs and returns an //object (instance) of a constructor function.
+
+document.write(neo.bikeName);
+
+//The constructor method is called automatically when the object is //initialized.
+
+
+
+
+//For other declarations, like functions, you will NOT get an error when you try to use it before it is declared, 
+	
+
+//code will be updated soon
