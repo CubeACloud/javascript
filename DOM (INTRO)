@@ -21,3 +21,46 @@
 //The innerHTML property can be used on almost all HTML elements to change its //content.
 //example
 document.body.innerHTML = "cubeacloud";
+
+
+
+
+//example 2
+//calling the function in window.onload to make sure the HTML is loaded
+
+<!DOCTYPE html>
+
+<html>
+	
+<head>
+	
+	<title>Page Title</title>
+	
+</head>
+	
+<body>
+	
+	<a href="http://www.blank.com">click here</a>
+		
+			
+<script>
+	
+	    
+		    window.onload = function() {
+ 
+   var web = document.getElementsByTagName('a');
+ 
+   web[0].href= 'https://cubeacloud.com';
+};
+	
+	</script>
+	
+	
+</body>
+
+
+</html>
+
+
+
+
