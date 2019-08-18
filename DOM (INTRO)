@@ -2,6 +2,11 @@
 
 //Document Object Model
 
+//In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+
+
+
 //The DOM represents a document as a tree structure.
 //HTML elements become interrelated nodes in the tree.
 //All those nodes in the tree have some kind of relations among each other. 
@@ -14,19 +19,97 @@
 //<body> has two children (<h1> and <a>) and one parent (<html>);
 
 
+//Finding HTML Elements
+
+//Method		Description
+//document.getElementById(id)		 Find an element by element id
+//document.getElementsByTagName(name)		Find elements by tag name
+//document.getElementsByClassName(name)		Find elements by class name
+
+
+//Changing HTML Elements
+
+//element.innerHTML =  new html content	Change the inner HTML of an element
+//element.attribute = new value	Change the attribute value of an HTML element
+//element.style.property = new style	Change the style of an HTML element
+
+
+//Adding and Deleting Elements
+
+
+//Method	Description
+//document.createElement(element)	Create an HTML element
+//document.removeChild(element)	Remove an HTML element
+//document.appendChild(element)	Add an HTML element
+//document.replaceChild(new, old)	Replace an HTML element
+//document.write(text)	Write into the HTML output stream
+
+
+
+//Finding HTML Objects
+
+//Property			Description					DOM
+//document.anchors	Returns all <a> elements that have a name attribute	1
+//document.applets	Returns all <applet> elements (Deprecated in HTML5)	1
+//document.baseURI	Returns the absolute base URI of the document		3
+//document.body	Returns the <body> element					1
+//document.cookie	Returns the document's cookie				1
+//document.doctype	Returns the document's doctype				3
+//document.documentElement	Returns the <html> element			3
+//document.documentMode	Returns the mode used by the browser			3
+//document.documentURI	Returns the URI of the document				3
+//document.domain	Returns the domain name of the document server		1
+//document.domConfig	Obsolete. Returns the DOM configuration			3
+//document.embeds	Returns all <embed> elements				3
+//document.forms	Returns all <form> elements				1
+//document.head	Returns the <head> element					3
+//document.images	Returns all <img> elements				1
+//document.implementation	Returns the DOM implementation			3
+//document.inputEncoding	Returns the document's encoding (character set)	3
+//document.lastModified	Returns the date and time the document was updated	3
+//document.links	Returns all <area> and <a> elements that have a href attribute	1
+//document.readyState	Returns the (loading) status of the document		3
+//document.referrer	Returns the URI of the referrer (the linking document)	1
+//document.scripts	Returns all <script> elements				3
+//document.strictErrorChecking	Returns if error checking is enforced		3
+//document.title	Returns the <title> element				1
+//document.URL	Returns the complete URL of the document			1
+
+
+
+
+
+
 
 
 
 
 //The innerHTML property can be used on almost all HTML elements to change its //content.
-//example
+//example #1
+
 document.body.innerHTML = "cubeacloud";
 
+//A property is a value that you can get or set (like changing the content of an HTML element).
+
+//A method is an action you can do (like add or deleting an HTML element).
+
+
+//example #2
+
+//in this example content will add or change of the <p> tag with id "para"
+
+<p id="para"></p>
+
+<script>
+
+document.getElementById("para").innerHTML = "Hello World!";
+</script>
 
 
 
-//example 2
-//calling the function in window.onload to make sure the HTML is loaded
+
+//example 
+//calling the function in window.onload .. PASTE THIS CODE IN HTML FILE
 
 <!DOCTYPE html>
 
