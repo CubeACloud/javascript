@@ -26,3 +26,17 @@ document.write(neo.bikeName);
 	
 
 //code will be updated soon
+
+
+class Name {
+  constructor(brand) {
+    this.MyName = brand;
+  }
+  
+  intro() {          		//js give us free to create your own methods, but the syntax should accurate
+    return "vist our website" + " " + this.MyName;
+  }
+}
+
+neo = new Name("www.cubeacloud.com");
+document.write(neo.intro());
