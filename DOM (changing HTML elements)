@@ -1,0 +1,74 @@
+//JavaScript changed "Old Heading" to "New Heading".
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="heading"></h1>
+<p id="para"> this is para  </p>
+
+<script>
+
+var heading = document.getElementById("heading");
+heading.innerHTML = "cubeacloud";
+
+//you can also use this method (give same result)
+var heading = document.getElementById("heading").innerHTML = "cubeacloud";
+var para = document.getElementById("para").innerHTML = "we are here to solve your technical problems, our aim is to deliver you the best of everything";
+
+
+
+</script>
+
+
+
+</body>
+</html> 
+
+
+//The HTML document above contains an <h1> element with id="heading"
+//The HTML document above contains an <p> element with id="para"
+
+//We use the HTML DOM to get the element with id="heading"
+//We use the HTML DOM to get the element with id="para"
+
+//A JavaScript changes the content (innerHTML) of <h1> element to "cubeacloud"
+//A JavaScript changes the content (innerHTML) of <p> element to "we are here to solve //your technical problems, our aim is to deliver you the best of everything".
+
+
+//example #2
+
+//it's a syntax only ! , you can add local image links too
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="pic" src="unknown.png" width="160" height="120">
+
+<script>
+document.getElementById("pic").src = "known.png";
+</script>
+
+<p>by USING DOM ELEMENTS you can manipulate image also</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
