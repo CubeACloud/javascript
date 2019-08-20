@@ -1,0 +1,150 @@
+	Style border Property
+
+//The border property sets or returns up to three separate border properties, in a //shorthand form.
+
+//With this property, you can set/return one or more of the following (in any order):
+
+//border-width
+//border-style
+//border-color
+ 
+//syntax
+//object.style.border
+
+//example #1
+//paste this code in HTML file
+<div id="di1">border will be show here </div>  <!--container--> 
+<br>
+<button type="button" onclick="border()">Set border</button>
+
+<script>
+function border() {
+  document.getElementById("di1").style.border = "dotted black";
+}
+</script>
+
+
+//example #2
+
+//border bottom
+
+//The borderBottom has following three properties 
+
+border-bottom-width
+border-bottom-style
+border-bottom-color
+
+
+
+//paste this code in HTML file
+
+<div id="di1">border will be show here </div>  <!--container--> 
+<br>
+<button type="button" onclick="border()">Set border</button>
+
+<script>
+function border() {
+  document.getElementById("di1").style.borderBottom = "dotted 5px black"; //style width color
+}
+</script>
+
+
+//example 3
+
+
+//Border Radius
+//This property allow you to add rounded borders to elements!
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#div1 {
+  border: 4px dotted lightblue;
+  width: 200px;
+  height: 200px;
+}
+</style>
+</head>
+<body>
+
+
+<button onclick="border()">Click here</button>
+
+<div id="div1">
+  <h1>CubeACloud</h1>
+</div>
+
+<script>
+function border() {
+  document.getElementById("div1").style.borderBottomLeftRadius = "50px";
+  document.getElementById("div1").style.borderBottomRightRadius = "50px";
+  document.getElementById("div1").style.borderTopLeftRadius = "50px";
+
+document.getElementById("div1").style.borderTopRightRadius = "50px";
+}
+</script>
+
+</body>
+</html>
+
+
+
+//example 4 border image
+
+//Syntax
+//object.style.borderImage 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#div1 {
+  border: 13px solid transparent;
+  width: 250px;
+  padding: 10px 20px;
+ 
+  border-image: url(image.png) 20 15 stretch;  /*Default Value:	none 100% 1 0 stretch
+/*image unaivable! you can give your local image link
+}
+</style>
+</head>
+<body>
+
+
+<button onclick="border()">click here</button>
+
+<div id="div1">
+<h1>cubeacloud</h1>
+</div>
+
+<script>
+function border() {
+  document.getElementById("div1").style.WebkitBorderImage = "url(image.png) 20 15 round";  
+  document.getElementById("div1").style.OBorderImage = "url(image.png) 20 15 round";  
+  document.getElementById("div1").style.borderImage = "url(image.png) 20 15 round";
+}
+</script>
+
+</body>
+</html>
+
+//you can also use other border image properties too
+
+//borderImageSource	The path to the image to be used as a border
+//borderImageSlice	The inward offsets of the image-border
+//borderImageWidth	The widths of the image-border
+//borderImageOutset	The amount by which the border image area extends beyond the //border box
+//borderImageRepeat	Whether the image-border should be repeated, rounded or //stretched
+
+
+
+
+
+
+
+
+
