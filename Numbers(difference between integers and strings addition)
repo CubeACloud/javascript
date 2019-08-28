@@ -160,3 +160,7 @@ Math.min(0, 150, 30, 20, -8, -200));
 
 document.write(
 Math.max(0, 150, 30, 20, -8, -200));
+
+
+
+//if you any questions you can contact us on cubeacloud@gmail.com
