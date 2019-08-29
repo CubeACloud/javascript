@@ -1,0 +1,49 @@
+ 		DOM STYLE BACKGROUD CHANGES
+
+
+
+//background
+
+//The background property sets or returns up to eight separate background properties, //in a shorthand form.
+
+
+//syntax
+//object.style.background
+
+
+
+//example 1
+ //paste this code in html file
+
+<button type="button" onclick="color()">click to change background</button>
+
+<script>
+function color() {
+
+document.body.style.backgroundColor = "lightblue";
+//document.body.style.backgroundImage = "";  this for background image you can also //use both at a time
+}
+</script>
+
+
+//you can try all the properties which is given below
+
+
+
+// Property Values
+
+//Value	Description
+//color	Sets the background color of an element
+//image	Sets the background image for an element
+//repeat	Sets how a background image will be repeated
+//attachment	Sets whether a background image is fixed or scrolls with the page
+//position	Sets the starting position of a background image
+//size	Sets the size of a background image
+//origin	Sets the background positioning area
+//clip	Sets the painting area of a background image
+//initial	Sets this property to its default value. Read about initial
+//inherit	Inherits this property from its parent element. Read about inherit
+
+
+
+
