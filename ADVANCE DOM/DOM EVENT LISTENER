@@ -1,0 +1,36 @@
+		EVENT LISTENER
+/The addEventListener() method attaches an event handler to an element without overwriting existing event handlers. You can add many event handlers to one element.
+
+//syntax
+element.addEventListener(event, function, useCapture);
+
+
+
+<!--example 1-->
+
+<button id="lol"> click here </button>
+
+<script>
+
+
+document.getElementById("lol").addEventListener("click", function() {
+alert("Cube_A_Cloud"); //event listener "click" that fires when a user clicks a button:
+})
+</script>
+
+
+
+<!--example 2-->
+
+<button id="lol">click here</button>
+
+<script>
+document.getElementById("lol").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Cube_A_Cloud");
+}
+</script>
+
+
+
