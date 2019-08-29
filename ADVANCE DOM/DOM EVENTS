@@ -1,0 +1,71 @@
+  	DOM EVENTS
+DOM (Document Object Model) events are actions that occur as a result of user input,
+for example =
+to execute  code when a user clicks on an element
+
+
+
+<!--example 1-->
+
+<!--the content of the <h1> element is changed when you clicks on it-->
+<h1 onclick="this.innerHTML='Cube_A_Cloud'">Comapny Name</h1>
+
+
+
+
+<!--example 2-->
+
+<!--a function is called from the event handler:-->
+
+<h1 onclick="heading(this)">company name </h1>
+
+<p onclick="para(this)">company description </p>
+<script>
+
+function heading(H) {
+  H.innerHTML = "Cube_A_Cloud";
+}
+
+
+function para(p) {
+p.innerHTML = "we are here to solve your technical problems, our aim is to deliver you the best of everything,";
+}
+
+</script>
+
+
+
+<!--example 3-->
+//convert lower case text into upper case
+<script>
+
+
+function upper() {
+var m = document.getElementById("para");
+m.value = m.value.toUpperCase();
+//you can also add LowerCase "toLowerCase"
+}
+</script>
+
+
+<input type="text" id="para" onchange="upper()">
+
+
+<!--example 4-->
+
+
+<div onmouseover="hover(this)" onmouseout="mOut(this)">
+mouse hover effects</div>
+
+<script>
+function hover(obj) {
+  obj.innerHTML = "HELLO"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "WORLD"
+}
+</script>
+
+
+
