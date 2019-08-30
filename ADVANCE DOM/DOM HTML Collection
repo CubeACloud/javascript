@@ -15,3 +15,24 @@ var myCollection = document.getElementsByTagName("p");
 document.getElementById("tag").innerHTML = "we are here to solve your technical problems, our aim is to deliver you the best of everything" +"  " +
 myCollection[1].innerHTML; //Returns the specific node at the given zero-based ,,  Returns null if no node exists by the given index.
 </script>
+
+
+
+
+//example 2
+
+//The length property defines the number of nodes in a node list:
+
+<h2>Cube_A_Cloud</h2>
+
+<h2> </h2>
+
+<h2> </h2>
+
+<h2> </h2>
+
+<p id="para"> </p>
+<script>
+var node = document.querySelectorAll("h2");
+document.getElementById("para").innerHTML = node.length;
+</script>
