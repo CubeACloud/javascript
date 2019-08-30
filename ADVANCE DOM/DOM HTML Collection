@@ -1,0 +1,17 @@
+//example 1
+
+//The elements in the collection can be accessed by an index number.
+
+<h2>Cube_A_Cloud</h2>
+
+<p>(Tag 0)</p>
+
+<p>(Tag 1)</p>
+
+<p id="tag"></p>
+
+<script>
+var myCollection = document.getElementsByTagName("p");
+document.getElementById("tag").innerHTML = "we are here to solve your technical problems, our aim is to deliver you the best of everything" +"  " +
+myCollection[1].innerHTML; //Returns the specific node at the given zero-based ,,  Returns null if no node exists by the given index.
+</script>
