@@ -1,6 +1,6 @@
 //example 1
 
-//The elements in the collection can be accessed by an index number.
+//HTMLCollection items can be accessed by their name, id, or index number
 
 <h2>Cube_A_Cloud</h2>
 
