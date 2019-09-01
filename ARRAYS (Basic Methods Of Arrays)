@@ -1,29 +1,35 @@
-//calling array elements
+              //Calling Array Elements.
 
-var person = ["christen", "grey", 27];  //array as object
-document.write(person[1]);   //output "Doe"
+var person = ["Christian", "grey", 27];  //array as object.
+document.write(person[1]);   
+//output "grey ".
 
 
 
-var person = ["christen", "grey", 27];
+//finding length of array by using "length" property.
+var person = ["Christian ", "grey", 27];
 var leng = person.length;
 document.write(leng);
+//output "3".
 
 
 
-//access object properties
-var person = {firstN : "christian" ,  lastN: "grey", age : 46};
+//access object properties.
+
+var person = {firstN : "Christian " ,  lastN: "grey", age : 46};
 document.write(person["firstN"]);
+//output "Christian".
 
 
 
 
 
 
-//
+//calling array using index number.
 
 var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "dec",] ;
 var last = months[months.length-2];
-document.write(last);
+document.write(last); 
+//output "nov".
 
 //if you have any problem you can contact us on cubeacloud@gmail.com
