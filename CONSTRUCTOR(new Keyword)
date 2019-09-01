@@ -1,7 +1,6 @@
+							CONSTRUCTOR		
 
-
-
-//A class is a type of function, but instead of using the keyword function to //initiate it,
+//A class is a type of function, but instead of using the keyword function to initiate it.
 
 
 //keyword class to create a class, and always add a constructor method.
@@ -13,30 +12,28 @@ this.bikeName = brand;
 }
 }
 
-neo = new bike("power"); //The new keyword constructs and returns an //object (instance) of a constructor function.
+neo = new bike("power"); //The new keyword constructs and returns an object (instance) of a constructor function.
 
 document.write(neo.bikeName);
-
-//The constructor method is called automatically when the object is //initialized.
-
-
+//output "power".
+//The constructor method is called automatically when the object is initialized.
 
 
-//For other declarations, like functions, you will NOT get an error when you try to use it before it is declared, 
-	
-
-//code will be updated soon
 
 
-class Name {
-  constructor(brand) {
-    this.MyName = brand;
-  }
-  
-  intro() {          		//js give us free to create your own methods, but the syntax should accurate
-    return "vist our website" + " " + this.MyName;
-  }
-}
+//For other declarations, like functions, you will NOT get an error when you try to use it before it is declared.
 
-neo = new Name("www.cubeacloud.com");
-document.write(neo.intro());
+
+	class Name {
+	  constructor(brand) {
+	    this.MyName = brand;
+	  }
+
+	  intro() {          		//js give us free to create your own methods, but the syntax should accurate.
+	    return "vist our website" + " " + this.MyName;
+	  }
+	}
+
+	neo = new Name("www.cubeacloud.com");
+	document.write(neo.intro());
+//output "vist our website www.cubeacloud.com".
