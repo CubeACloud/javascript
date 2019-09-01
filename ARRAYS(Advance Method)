@@ -1,8 +1,8 @@
-//
+                  //ARRAYS(Advance Method)
 
 var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "dec",] ;
 document.write(months.join(" * "));
-
+//output "jan * feb * march * april * may * june * july * august * sept * oct * nov * dec".
 
 
 //jan
@@ -18,79 +18,73 @@ document.write(months.join(" * "));
 //nov
 //dec
 
-//pop() eliminate the last month
+//pop() method eliminate the last month.
 
 var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "dec",] ;
 
 months.pop();
 document.write(months);
-
-
-//result  jan,feb,march,april,may,june,july,august,sept,oct,nov
+//output  "jan,feb,march,april,may,june,july,august,sept,oct,nov".
 
 
 
 
-//push() add new value into array
+//push() method add new value into array.
 
 var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "",] ;
 months.push("dec");
 document.write(months);
-
-//result  jan,feb,march,april,may,june,july,august,sept,oct,nov,,dec
-
+//output  "jan,feb,march,april,may,june,july,august,sept,oct,nov,,dec".
 
 
 
-//shift() method removes the first element of an array
+
+//shift() method removes the first element of an array.
 
 var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "dec"];
-
 months.shift();
+
 document.write(months);
-
-//result feb,march,april,may,june,july,august,sept,oct,nov,dec
-
+//output "feb,march,april,may,june,july,august,sept,oct,nov,dec".
 
 
 
 
-//join() methods join array value toghether by given value
+
+//join() methods join array value toghether by given value.
 
 var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov", "dec"]; //array
-
 document.write(months.join(" * "));
+//output "jan * feb * march * april * may * june * july * august * sept * oct * nov * dec".
 
-//result jan * feb * march * april * may * june * july * august * sept * oct * nov * dec
 
 
-//adding array values through array index numbers
+//adding array values through array index numbers.
+
 var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov",] ;
-
 months[11] = "dec";
 document.write(months);
+//output "jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct", "nov", "dec".
 
 
-// delete method delete the value from the given index number
+//delete method delete the value from the given index number.
 
 var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov","dec"] ;
-
 delete months[0];
-document.write(months);
 
-//result ,feb,march,april,may,june,july,august,sept,oct,nov,dec
+document.write(months);
+//output ",feb,march,april,may,june,july,august,sept,oct,nov,dec".
 
 
 
 //slice() method slice the value elimintate the index value from 3 to 9 and show you the result after 3 to 9
-
 
 var months = ["jan", "feb", "march", "april", "may", "june", "july", "august", "sept", "oct" , "nov","dec"] ;
 
 var neo = months.slice(3 , 9);
 document.write(neo);
 
-//result april,may,june,july,august,sept
+//output "april,may,june,july,august,sept".
 
 
 
