@@ -1,26 +1,25 @@
-JAVASCRIPT DATE OBJECTS
+                                                JAVASCRIPT DATE OBJECTS
 
 //in javascript we create date objects  with new Date() constructor.
 
-//You can use different Date constructors to create date object. It provides methods to get and set day, month, year, hour, minute and seconds.
+//You can use different Date constructors to create date object. It provides methods to get and set day, month, year, hour, minute & 
+seconds.
 
 //You can use 4 variant of Date constructor to create date object.
 
 //Date()
 //Date(milliseconds)  
 //Date(dateString)  
-//Date(year, month, day, hours, minutes, seconds, milliseconds)
+//Date(year, month, day, hours, minutes, seconds, milliseconds).
 
 //some common date objects
 getDate() //= it returns the integer value between 1 and 31 that represents the day for the specified date on the basis of local time.
 
+// index numbers start from 0.
 
 getDay() //= It returns the integer value between 0 and 6 that represents the day of the week on the basis of local time.
 
 getFullYears() //= It returns the integer value that represents the year on the basis of local time.
-
-
-getHours() //= It returns the integer value between 0 and 23 that represents the hours on the basis of local time.
 
 
 getHours() //= It returns the integer value between 0 and 23 that represents the hours on the basis of local time.
@@ -37,7 +36,11 @@ getMonth() //= It returns the integer value between 0 and 11 that represents the
 
 getSeconds() //= It returns the integer value between 0 and 60 that represents the seconds on the basis of local time.
 
-getUTCDate() //= It returns the integer value between 1 and 31 that represents the day for the specified date on the basis of universal time.
+
+                            // TO GET UNIVERSAL DATE 
+                            
+getUTCDate() //= It returns the integer value between 1 and 31 that represents the day for the specified date on the basis 
+of universal time.
 
 
 getUTCDay() //= It returns the integer value between 0 and 6 that represents the day of the week on the basis of universal time.
@@ -53,6 +56,9 @@ getUTCMinutes() //= It returns the integer value between 0 and 59 that represent
 getUTCMonth() //= It returns the integer value between 0 and 11 that represents the month on the basis of universal time.
 
 getUTCSeconds() //= It returns the integer value between 0 and 60 that represents the seconds on the basis of universal time.
+
+
+          //TO SET YOUR CUSTOM TIME
 
 setDate() //= It sets the day value for the specified date on the basis of local time.
 
