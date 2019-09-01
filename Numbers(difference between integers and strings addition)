@@ -1,34 +1,40 @@
+                        NUMBERS (DIFFERENCE BETWEEN INTEGERS & STRINGS)
+
+
 //JavaScript has only one type of number. Numbers you can be write with //with decimals or without decimals.
 //example 1
 var withDec = 9.97;
 
 var nonDec = 5;
 
-//Extra large or extra small numbers can be written with scientific //(exponent) notation:
+//Extra large or extra small numbers can be written with scientific (exponent) notation.
 //example 2
+
 var Elarge = 999e3;
 var Esmall = 999e-3;
 
 document.write( Elarge + "<br/>" + Esmall );
 
+
+
 //example 3
-//after 15 digits it shows you the whole result
+//after 15 digits it shows you the whole result.
 
 var fourteen = 999999999999999;
 var fifteen = 9999999999999999;
-document.write(fourteen + "<br>" + fifteen);
+document.write(fourteen + "<br/>" + fifteen);
 
 
 
 //example 4
-//floating points are always not fully correct
+//floating points are always not fully correct:
 var x = 0.7 + 0.1;
 document.write("0.7 + 0.1 = " + x);
 
 
 
 //example 5
-//javascript solve first parentheses
+//javascript solve first parentheses:
 
 var val = (30 * 10 + 40 * 10) / 10;
 document.write(val); // output is 70
@@ -38,54 +44,59 @@ var val = 30 * 10 + 40 * 10 / 10;
 document.write(val); // output is 340
 
 
+
 //example 6
-//adding strings 
+//adding strings:
 var x = "20";
 var y = "20";
 var z = x + y;
 document.write(z); //output is 2020
 
 
-//adding integer and strings 
+//adding integer and strings :
 var x = 20;
 var y = "20";
 var z = x + y;
 document.write(z); //output is 2020
 
+
+
 //example 7
-//adding two integers with string
+//adding two integers with string:
 var x = 15;
 var y = 25;
 var z = "30";
 var result = x + y + z;
-document.write(result); //result 4030
+document.write(result); //result 4030.
 
 
-// now integer adding with string with integer
+// now integer adding with string with integer:
 
 var x = 15;
 var y = 25;
 var z = "30";
 var result = x + z + y;
-document.write(result); //output is 153025
+document.write(result); //output is 153025.
+
+
 
 //example 8
-//JS will try to convert strings to numbers when multiplying
+//JS will try to convert strings to numbers when multiplying.
 
 var x = "200";
 var y = "20";
 var z = x * y;   
-document.write(z); //output 2000
+document.write(z); //output 2000.
 
 var x = "200";
 var y = "20";
 var z = x -	 y;   
-document.write(z); //output 180
+document.write(z); //output 180.
 
 var x = "200";
 var y = "20";
 var z = x + y;   
-document.write(z); //output 20020
+document.write(z); //output 20020.
 
 
 
@@ -101,14 +112,17 @@ document.write(
 
 
 //example 10
-var x = 100;        // x is a number
-var y = new Number(100);  // y is an object
-document.getElementById("demo").innerHTML = (x===y); //true
+var x = 100;        // x is a number.
+var y = new Number(100);  // y is an object.
+document.getElementById("demo").innerHTML = (x===y); //true.
+
+
 
 //example 11 
 
-document.write(Math.round(4.6)); //if round 4.7 or 4.8, 4.9 , it will give you 5 output
-document.write(Math.round(4.6)); // if 4.2 or 4.3 it will give you 4 output
+document.write(Math.round(4.6)); //if round 4.7 or 4.8, 4.9 , it will give you 5 output.
+document.write(Math.round(4.6)); // if 4.2 or 4.3 it will give you 4 output.
+
 
 
 //example 12
@@ -117,9 +131,11 @@ document.write(Math.round(4.6)); // if 4.2 or 4.3 it will give you 4 output
 document.write(Math.PI);
 
 
+
 //example 13
 // pow is for give you the power of integer:
 document.write(Math.pow(8,2));
+
 
 
 //example 14
@@ -128,11 +144,13 @@ document.write(Math.pow(8,2));
 document.write(Math.sqrt(64));
 
 
+
 //example 15
 
-//returns the absolute (positive) value of 
+//returns the absolute (positive) value of:
 
 document.write(Math.abs(-4.4));
+
 
 //example 16
 
