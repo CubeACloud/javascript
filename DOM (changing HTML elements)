@@ -1,3 +1,5 @@
+              //DOM (CHANGING HTML ELEMENTS)
+
 //JavaScript changed "Old Heading" to "New Heading".
 
 <!DOCTYPE html>
@@ -26,19 +28,20 @@ var para = document.getElementById("para").innerHTML = "we are here to solve you
 </html> 
 
 
-//The HTML document above contains an <h1> element with id="heading"
-//The HTML document above contains an <p> element with id="para"
+//The HTML document above contains an <h1> element with id="heading".
+//The HTML document above contains an <p> element with id="para".
 
-//We use the HTML DOM to get the element with id="heading"
-//We use the HTML DOM to get the element with id="para"
+//We use the HTML DOM to get the element with id="heading".
+//We use the HTML DOM to get the element with id="para".
 
-//A JavaScript changes the content (innerHTML) of <h1> element to "cubeacloud"
-//A JavaScript changes the content (innerHTML) of <p> element to "we are here to solve //your technical problems, our aim is to deliver you the best of everything".
+//A JavaScript changes the content (innerHTML) of <h1> element to "cubeacloud".
+//A JavaScript changes the content (innerHTML) of <p> element to "we are here to solve //your technical problems, 
+//our aim is to deliver you the best of everything".
 
 
 //example #2
 
-//it's a syntax only ! , you can add local image links too
+//it's a syntax only ! , you can add local image links too.
 
 <!DOCTYPE html>
 <html>
