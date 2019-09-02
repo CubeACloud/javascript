@@ -1,4 +1,4 @@
-            //this method usage in object
+            //this Method
 
 //In a method, this refers to the owner object.
 //Alone, this refers to the global object.
@@ -13,8 +13,8 @@ var car = {
 name:"civic", 
 model:"2019", 
 color:"grey",
-  Details : function() {         // function which adding both properties (as much as you want)
-    return this.name + " " + this.model; //return this value to function
+  Details : function() {         // function which adding both properties (as much as you want).
+    return this.name + " " + this.model; //return this value to function.
   }
 };
 
