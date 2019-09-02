@@ -1,5 +1,9 @@
+                   //While Loop
+
 //The while loop loops through a block of code as long as a specified condition is true.
-//syntax
+
+      //syntax:
+      
 while (condition) {
   // code block to be executed
 }
@@ -7,63 +11,64 @@ while (condition) {
 //The example below uses a do/while loop. The loop will always be executed at least once, even if the condition is false, 
 //because the code block is executed before the condition is tested:
 
-var text = ""; //variable declared
-var i = 1; //i declared before hand
+var text = ""; //variable declared.
+var i = 1; //i declared before hand.
 
 do {
-  text += "<br>july date " + i; // i is the variable which show the loop value
-  i++; //increment
+  text += "<br>july date " + i; // i is the variable which show the loop value.
+  i++; //increment.
 }
-while (i < 32);   //while loop
+while (i < 32);   //while loop.
 
 
-The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+//The do/while loop is a variant of the while loop. This loop will execute the code block once, 
+//before checking if the condition is true, then it will repeat the loop as long as the condition is true.
 
 
 do {
-  // code block to be executed
+  // code block to be executed.
 }
 while (condition);
 
 
 
-example 1 for do loop
+example 1 for do loop:
 
 var text = "";
 var i = 1;
 
 do {
-  text += "<br>july date" + " " + i; //i is the variable which show the loop value
-  i++; //increment
+  text += "<br>july date" + " " + i; //i is the variable which show the loop value.
+  i++; //increment.
 }
-while (i < 32); // condition if i has to be less than 32
+while (i < 32); // condition if i has to be less than 32.
 
 
 
-//difference between while loop and for loop
+//difference between while loop and for loop.
 
 
-//for loop old example code
+//for loop old example code:
 
 var lang = ["java", "php", "javascript", "python"];
 var i = 0;
 var text = "";
 for (;lang[i];) {
   text += lang[i] + "<br>";
-  i++; //increment
+  i++; //increment.
 }
 document.write(text);
 
 
 
-//do while loop code
+//do while loop code:
 
 var lang = ["java", "php", "javascript", "python"];
 var i = 0;
 var text = "";
 while (lang[i]) {
-  text += lang[i] + "<br>"; //[i] is the variable which show the loop value
-  i++; //increment
+  text += lang[i] + "<br>"; //[i] is the variable which show the loop value.
+  i++; //increment.
 
 }
 document.write(text);
