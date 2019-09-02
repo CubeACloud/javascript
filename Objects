@@ -6,22 +6,22 @@
 
 // Create an object:
 
-//syntax //object var variableName= {};
-//Spaces and line breaks are not important
+      //syntax
+//object var variableName= {};
+//Spaces and line breaks are not important.
 
 
 //example 1
 
 var car = {name:"civic", model:"2017", color:"grey"}; //object defined.
 
-//it can also be written as
+//it can also be written as:
 //var car = {name:"civic",
  //model:"2017", 
 //color:"grey"}; 
 
 document.write("i have a " + car.name);
-
-//result "i have a civic".
+//output "i have a civic".
 
 
 
@@ -30,13 +30,13 @@ document.write("i have a " + car.name);
 // Create an object:
 var car = {name:"civic", 
 model:"2019", 
-color:"grey"}; //object defined 
+color:"grey"}; //object defined.
 
 // Display some data from the object:
 document.write("i have a " + car["name"] + " " + "model" + " "  + car["model"]);
-//you can access an object property by calling property through [""]
+//you can access an object property by calling property through [""].
 
-//result result "i have a civic model 2019".
+//output "i have a civic model 2019".
 
 
 //you can contact us on cubeacloud@gmail.com
