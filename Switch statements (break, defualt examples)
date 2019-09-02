@@ -1,3 +1,5 @@
+                                      //Switch statements
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -29,16 +31,16 @@ switch(color) {
         document.write("<br/>Color not found.");
 }
 
-// switch statement work cycle
+// switch statement work cycle:
 
 //The switch expression is evaluated once.
 //The value of the expression is compared with the values of each case.
-//If there is a match, the associated block of code is executed
+//If there is a match, the associated block of code is executed.
             
             
             
-            // you can see break; after every statement 
-           //so why we use break  here i will give you some examples
+            // you can see "break;" after every statement .
+           //so why we use break,  here i will give you some examples:
            
               //If you omit the break statement, the next case will be executed even if the evaluation does not match the case.
            
@@ -78,14 +80,15 @@ switch (day) {
         document.write("Another day");
 }
 //the webpage will show you the result "MondayTuesday"
-//so why both statements are merge? this is because  "If you omit the break statement, the next case will be executed even if the evaluation does not match the case."
+//so why both statements are merge? this is because  "If you omit the break statement,
+//the next case will be executed even if the evaluation does not match the case."
 
 
 
 
-// now i will tell you why we use default; keyword
+// now i will tell you why we use default; keyword.
 //The default keyword specifies the code to run if there is no case match:
- //for example
+ //for example:
  
   var day = 4;
 switch (day) {
@@ -102,7 +105,8 @@ switch (day) {
         document.write("Another day");
 }
 
-//we don't have case for day 4 so webpage will show you the default result (if we input day 5 aur day 6 webpage will also show the default result)
+//we don't have case for day 4 so webpage will show you the default result,
+//(if we input day 5 aur day 6 webpage will also show the default result).
 
  
     
